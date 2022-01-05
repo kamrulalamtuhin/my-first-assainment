@@ -30,3 +30,7 @@ section{
     color: white;
     cursor: pointer;
 }
+.tittle{
+    color: yellow;
+    text-align: end;
+}
