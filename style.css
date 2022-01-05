@@ -1,10 +1,13 @@
 body{
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-h1{
+.text-color{
     font-size: 50px;
     border-left: 5px solid orangered;
 }
+    
 .orange-color{
     color:orangered;
 }
@@ -16,7 +19,8 @@ section{
     padding: 10%;
 }
 .half-width img{
-    width:100%;}
+    width:100%;
+}
 
 .explore-btn{
     padding: 10px 30px;
@@ -32,5 +36,14 @@ section{
 }
 .tittle{
     color: yellow;
-    text-align: end;
+    margin-top: 0%;
 }
+.second-section{
+    text-align: center;}
+.Mission{
+    width: 5px;
+}
+.div-img{
+    width: 50%;
+}
+
