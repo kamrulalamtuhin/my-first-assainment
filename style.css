@@ -12,14 +12,21 @@ body{
     color:orangered;
 }
 section{
-    display:flex;
+    display: flex;
 }
 .half-width{
-    width:50%;
-    padding: 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 2rem;
+    margin: 5%;
+   
 }
 .half-width img{
-    width:100%;
+    width: 100%;
+    border-radius: 5px;
 }
 
 .explore-btn{
@@ -36,14 +43,61 @@ section{
 }
 .tittle{
     color: yellow;
-    margin-top: 0%;
-}
-.second-section{
-    text-align: center;}
-.Mission{
-    width: 5px;
-}
-.div-img{
-    width: 50%;
+    margin: auto;
+    text-align: center;
 }
 
+.all-mission{
+    
+    background-image: none;
+    
+    
+    display: flex;
+    width: 100px;
+}
+.div-img{
+    width: 100%;
+}
+
+.Mission{
+    background-color: whitesmoke;
+    margin: 10px 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    
+}
+.Vission{
+    background-color: palevioletred;
+    margin: 10px 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.goals{
+    background-color: peachpuff;
+    margin: 10px 20px;
+    padding: 5px 10px;
+}
+
+}
+.documentation-btn
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: orangered;
+}
+.Footer{
+    background-color: black;
+    padding: 30px 0px ;
+    color: white;
+    text-align: center;
+}
+.year{
+    color: yellow;
+}
+.footer-content{
+    margin-top: 0;
+}
+.footer-content{
+    text-align: center;
+    background-color: rgb(153, 85, 85);
+    font-color:white;
+}
