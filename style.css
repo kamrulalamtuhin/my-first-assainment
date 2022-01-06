@@ -7,7 +7,6 @@ body{
     font-size: 50px;
     border-left: 5px solid orangered;
 }
-    
 .orange-color{
     color:orangered;
 }
@@ -22,22 +21,18 @@ section{
     justify-content: center;
     margin-left: 2rem;
     margin: 5%;
-   
 }
 .half-width img{
     width: 100%;
     border-radius: 5px;
 }
-
 .explore-btn{
     padding: 10px 30px;
     border-radius: 5px;
     border: none;
     background-color: orangered;
-    
 }
 .explore-btn:hover{
- 
     color: white;
     cursor: pointer;
 }
@@ -46,25 +41,21 @@ section{
     margin: auto;
     text-align: center;
 }
-
 .all-mission{
-    
     background-image: none;
-    
-    
+    border-radius: 5px;
     display: flex;
     width: 100px;
 }
 .div-img{
     width: 100%;
+    border-radius: 5px;
 }
-
 .Mission{
     background-color: whitesmoke;
     margin: 10px 20px;
     padding: 5px 10px;
     border-radius: 10px;
-    
 }
 .Vission{
     background-color: palevioletred;
@@ -77,13 +68,13 @@ section{
     margin: 10px 20px;
     padding: 5px 10px;
 }
-
-}
-.documentation-btn
+.documentation-btn{
     padding: 10px 30px;
     border-radius: 5px;
     background-color: orangered;
 }
+    
+
 .Footer{
     background-color: black;
     padding: 30px 0px ;
@@ -98,6 +89,5 @@ section{
 }
 .footer-content{
     text-align: center;
-    background-color: rgb(153, 85, 85);
-    font-color:white;
+    background-color: rgb(72, 72, 134);
 }
